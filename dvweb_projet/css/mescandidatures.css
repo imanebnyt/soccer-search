@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px;
+    box-shadow: 0px 0px 16px 1px rgba(0,0,27,0.31);
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    font-size: 14px;
+	font-family: Helvetica;
+  }
+  
+  th {
+    background-color: #000060;
+    color: white;
+    font-weight: bold;
+  }
+
+  h1{
+    color: #c40000;
+  }
+
+.newClub a{
+    text-decoration: none;
+    width: 100px;
+    color: rgb(232, 18, 18);
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 30px;
+  }
+
+  .newClub{
+    background-color: #030376;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 30px;
+  }

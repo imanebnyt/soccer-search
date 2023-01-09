@@ -1,0 +1,169 @@
+#containerLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-top: 10em;
+    padding: 40px;
+}
+
+.TitreFormulaireDinscription {
+    color: rgb(24, 24, 24);
+    font-size: 40px;
+    font-family: BoldFont , Arial, Helvetica, sans-serif;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.BarreDeSaisie{
+    border: none;
+    padding: 5px;
+    margin: 10px 40px 10px 40px;
+    width: 320px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    font-family: Whitney Regular , Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    background-color: rgb(235, 99, 20);
+    border-radius: 10;
+    width: 170px;
+    height: 45px;
+    border-radius: 10px;
+    font-family: Whitney Bold;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.Button:hover {
+    background-color: rgb(248, 105, 23);
+}
+
+.errorMSG{
+    color: rgb(255, 0, 0);
+    font-family: Whitney Book Italic , Arial, Helvetica, sans-serif;
+    margin: 30px 0px 30px 0px;
+}
+
+.NoAccount {
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+    font-family: Whitney Regular , Arial, Helvetica, sans-serif;
+    margin: 30px 0px 0px 0px;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+.shake{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+}
+
+#nav_bar a {
+	width:300px;
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+	text-decoration-line: none;
+	color: #000060;
+	margin:auto;
+}
+
+label{
+	display:flex;
+	justify-content:center;
+	margin-top:27px;
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 52px;
+	text-align: center;
+	color: #C40000;
+}
+
+input{
+	display:flex;
+	padding-left:60px;
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 37px;
+	width: 50%;
+	height: 83px;
+	border: 3px solid #CECECE;
+	border-radius: 100px;
+	margin:auto;
+	margin-top:12px;
+}
+
+#txt input{
+	display:flex;
+	width: 300px;
+	height: 83px;
+	background: #000060;
+	border-radius: 100px;
+	color:white;
+	margin:auto;
+	margin-top:18px;
+	margin-bottom:54px;
+	text-align:center;
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 52px;
+	cursor:pointer;
+}
+
+.creat{
+	color: #000060;
+	font-size: 20px;
+	margin-bottom:20px;
+}
+
+.creat a{
+	text-decoration-line: none;
+	color: red;
+	margin-left:5px;
+}
